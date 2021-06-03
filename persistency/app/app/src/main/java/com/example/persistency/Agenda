@@ -19,3 +19,4 @@
 
 5. Code example
 -- Using a SQLite database for saving information between sessions.
+-- Challenges: keeping data in sync

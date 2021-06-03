@@ -6,6 +6,8 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class DBHelper extends SQLiteOpenHelper {
 
+    // 1. Create a DBHelper class extending SQLiteOpenHelper, which gives us access to the SQLite implementation in android.
+    //    Decide what columns the table should have, this can be optimized using a seperate DB Schema.
     public DBHelper(Context context) {
         super(context, "Persistent.db", null, 1);
     }

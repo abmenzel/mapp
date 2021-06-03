@@ -1,0 +1,27 @@
+===============================
+=========== LAYOUTS ===========
+===============================
+
+1. How to define layouts
+-- XML
+-- Programatically
+
+2. Layouts consist of ViewGroups and Views
+-- ViewGroup, containers
+-- Views, elements (buttons, text etc.)
+
+3. Attributes
+-- ID's, textSize, color etc.
+
+4. XML must be loaded
+-- onCreate()
+-- reference layout by id
+
+5. External libraries / Widgets
+-- Material design
+
+6. Code example
+-- Linear Layout
+-- Constraint Layout
+
+
