@@ -1,0 +1,21 @@
+1. What is persistency?
+
+2. Motivation for thinking about persistency
+-- Save data between sessions
+
+3. Types of storage
+-- Static files
+---- res folder, xml files etc.
+---- Read only
+-- Private files (internal storage)
+---- Database
+---- Preferences
+-- Public files (external storage)
+---- Media, documents etc.
+
+4. Internal/external database
+-- SQLite database
+-- External database through networking
+
+5. Code example
+-- Using a SQLite database for saving information between sessions.
