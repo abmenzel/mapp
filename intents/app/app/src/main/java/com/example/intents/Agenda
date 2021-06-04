@@ -1,0 +1,29 @@
+===============================
+=========== INTENTS ===========
+===============================
+
+1. What are intents?
+-- Used for starting various tasks on the phone
+-- Main Activity is the default intent
+
+2. Types of intents
+-- Start an activity
+-- Start a background service
+-- Broadcast (to other apps)
+
+3. Explicit vs. Implicit intents
+-- Explicit intents know what app/component to use (typically within own app)
+-- Implicit intents do not name the executing app
+---- Useful within the eco-system
+---- Activity choosers
+
+4. Passing data
+-- Extra Data
+-- StartActivityForResult & onActivityResult
+
+5. Intent filters
+-- Categories, who might resolve this?
+-- Actions, what are we doing?
+-- Allow start from other apps
+
+6. Code example
