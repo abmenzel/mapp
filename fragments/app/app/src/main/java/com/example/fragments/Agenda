@@ -1,7 +1,7 @@
 FRAGMENTS
 
 1. Motivations for using fragments
--- Seperation of concerns
+-- Separation of concerns
 -- Modularity
 -- Responsiveness
 
@@ -9,7 +9,16 @@ FRAGMENTS
 -- Fragments are reusable parts of the UI
 -- Hosted by an activity or other fragments
 
-X. Code example
+3. Fragments vs. Activities
+-- Lightweight
+-- Subsets of an activity
+
+4. Fragment manager
+-- Create fragments
+-- Remove fragments
+-- Communicate with fragments
+
+5. Code example
 -- XML
 -- Fragment class
 -- Main Activity
