@@ -8,3 +8,8 @@ FRAGMENTS
 2. How do fragments work?
 -- Fragments are reusable parts of the UI
 -- Hosted by an activity or other fragments
+
+X. Code example
+-- XML
+-- Fragment class
+-- Main Activity
