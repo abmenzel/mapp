@@ -1,1 +1,22 @@
 SCROLLABLE VIEWS
+
+1. Motivation for using scrollable views
+-- We want things placed off-screen
+-- Feeds, galleries, lists etc.
+
+2. Recyclerviews
+-- Dynamically add/remove from a list
+-- Can hold almost anything
+
+3. How is it implemented
+-- ViewHolder & XML
+-- Adapter
+-- Recyclerview
+
+4. Observers
+-- Tell the Recyclerview when to update
+-- Can be updated in ranges, instead of entire list
+-- notifyDataSetChanged()
+
+5. Code example
+
