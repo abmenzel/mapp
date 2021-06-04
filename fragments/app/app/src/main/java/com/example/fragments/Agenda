@@ -1,0 +1,10 @@
+FRAGMENTS
+
+1. Motivations for using fragments
+-- Seperation of concerns
+-- Modularity
+-- Responsiveness
+
+2. How do fragments work?
+-- Fragments are reusable parts of the UI
+-- Hosted by an activity or other fragments
