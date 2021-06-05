@@ -19,21 +19,25 @@ public class PeopleJava {
         people.add(new Person("Sofus", 42, null));
 
         for(Person person : people){
-            System.out.println(person.hobby.toUpperCase());
+            System.out.println(person.getHobby().toUpperCase());
         }
     }
 
     // 1. Let's say we have a simple class for a person
     //    A person has a name, an age, and might have a hobby - We can't easily enforce this in java.
     private class Person {
-        String name;
-        int age;
-        String hobby;
+        private String name;
+        private int age;
+        private String hobby;
 
         public Person(String name, int age, String hobby){
             this.name = name;
             this.age = age;
             this.hobby = hobby;
+        }
+
+        public String getHobby(){
+            return this.hobby;
         }
     }
 }
