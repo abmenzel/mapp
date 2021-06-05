@@ -1,0 +1,22 @@
+KOTLIN
+
+1. Motivation for using kotlin
+-- Safety checks / explicity
+-- Type inference
+
+2. Basic features
+-- Variables mutable/immutable
+-- Type inference
+-- String formatting
+
+3. Nullability
+-- Null safety
+-- Safe call operators
+-- Elvis operator
+
+4. Classes
+-- No constructor method
+-- Companion objects
+-- Late init
+-- init block
+-- no need for getters/setters
