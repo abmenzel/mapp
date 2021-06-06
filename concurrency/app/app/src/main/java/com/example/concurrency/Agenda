@@ -1,3 +1,20 @@
 =============================
 ======== CONCURRENCY ========
 =============================
+
+1. Motivation for concurrent programming
+
+2. What is concurrency
+-- Streams
+-- Where do we see concurrency?
+---- Listeners
+---- Background processes (threads)
+
+3. Challenges
+-- Shared ressources
+---- Shared objects
+---- Messaging
+-- Locking (synchronized)
+-- Synced tasks
+
+4. Code example

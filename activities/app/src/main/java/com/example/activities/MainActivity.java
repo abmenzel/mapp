@@ -17,13 +17,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        System.out.println(savedInstanceState);
 
         start_2 = findViewById(R.id.start_2);
-
-        if(savedInstanceState != null && savedInstanceState.containsKey("BUTTON_COLOR")){
-            start_2.setBackgroundColor(Color.parseColor(savedInstanceState.getString("BUTTON_COLOR")));
-        }
 
         start_2.setOnClickListener(button -> {
             Intent intent = new Intent(this, SecondActivity.class);

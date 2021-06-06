@@ -15,7 +15,7 @@
 
 3. Navigating between activities
 -- Intents
--- Results
+-- Results (startActivityForResult)
 
 4. Life-cycle
 -- Creation
