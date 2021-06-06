@@ -1,0 +1,23 @@
+========================
+====== ACTIVITIES ======
+========================
+
+1. Motivation for using activities
+-- Foundation for an app
+-- A way to categories the different aspects of an app
+-- Signify interaction with the user
+
+2. What is an activity
+-- An interaction with the user
+-- One main activity
+-- A host of fragments
+-- Activities call each other
+
+3. Navigating between activities
+-- Intents
+-- Results
+
+4. Life-cycle
+-- Creation
+-- Destruction
+-- Saved instance

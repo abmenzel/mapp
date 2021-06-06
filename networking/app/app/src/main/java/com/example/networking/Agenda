@@ -1,0 +1,20 @@
+NETWORKING
+
+1. Motivation for using networking
+-- Persistency
+-- Shared data
+-- Using external API's, rich and extensive information
+
+2. Webview
+-- Simple way of displaying websites
+-- Not what we need if we want to handle the data
+
+3. Network fetching
+-- Seperate background thread
+-- Runnable task for the thread (FetchJob)
+-- Create connection with the server
+-- Parse response from server
+
+4. JSON
+-- How API's usually serve data
+-- Easy to access

@@ -1,0 +1,16 @@
+NAVIGATION
+
+1. Motivation for using navigation component
+-- We can easily set up navigation in our app, to display different fragments
+-- Allows for animating the transitions between fragments
+-- Visual overview
+-- Backstack
+
+2. How does it work?
+-- Nav graph
+-- Actions & Destinations
+-- Navigation host
+-- Navigation controller
+
+3. Backstack
+-- PopUp

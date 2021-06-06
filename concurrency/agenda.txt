@@ -1,6 +1,0 @@
-- What is concurrency?
-- Motivations for using concurrency (three fundamentals)
-- How communication works in concurrency
--- Shared objects vs. Message passing
-- How would we use concurrency?
--- Bad concurrency communication example
