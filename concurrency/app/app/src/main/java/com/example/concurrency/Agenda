@@ -3,6 +3,8 @@
 =============================
 
 1. Motivation for concurrent programming
+-- Do multiple tasks at once
+-- Responsive UI
 
 2. What is concurrency
 -- Streams

@@ -64,10 +64,8 @@ public class MainActivity extends AppCompatActivity {
     // We occupy the main thread, which we are also using for updating the UI.
     public void startClockBad() {
         try{
-            int limit = 0 ;
-            while (limit < 4) {
+            while (true) {
                 TimeUnit.SECONDS.sleep(1);
-                limit++;
                 sharedCountdown.tick();
             }
         } catch (java.lang.InterruptedException e) { }
